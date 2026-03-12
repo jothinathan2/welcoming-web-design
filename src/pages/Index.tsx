@@ -47,14 +47,23 @@ const Index = () => {
       {/* Service Times */}
       <section className="bg-card border-b border-border">
         <div className="container py-12">
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div className="flex items-center gap-4 rounded-xl bg-muted/50 p-6">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10">
                 <Clock className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold">Sunday Services</h3>
-                <p className="text-sm text-muted-foreground">9:00 AM & 11:00 AM</p>
+                <h3 className="font-heading font-semibold">Sunday Service</h3>
+                <p className="text-sm text-muted-foreground">7:00 AM – 9:00 AM</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-4 rounded-xl bg-muted/50 p-6">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                <Clock className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-heading font-semibold">Sunday Service</h3>
+                <p className="text-sm text-muted-foreground">9:00 AM – 12:00 PM</p>
               </div>
             </div>
             <div className="flex items-center gap-4 rounded-xl bg-muted/50 p-6">
@@ -62,8 +71,8 @@ const Index = () => {
                 <Calendar className="h-6 w-6 text-accent" />
               </div>
               <div>
-                <h3 className="font-heading font-semibold">Wednesday Night</h3>
-                <p className="text-sm text-muted-foreground">7:00 PM — Bible Study</p>
+                <h3 className="font-heading font-semibold">Friday Fasting Prayer</h3>
+                <p className="text-sm text-muted-foreground">10:00 AM – 1:00 PM</p>
               </div>
             </div>
             <div className="flex items-center gap-4 rounded-xl bg-muted/50 p-6">
