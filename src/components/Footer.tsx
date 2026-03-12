@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary">
                 <span className="text-sm font-bold text-primary-foreground">✝</span>
               </div>
-              <span className="font-heading text-lg font-bold">Grace Community</span>
+              <span className="font-heading text-lg font-bold">IPC Gethsemane Prayer House</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A place where everyone is welcome. Join us as we grow in faith together.
