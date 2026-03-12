@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary">
             <span className="text-lg font-bold text-primary-foreground">✝</span>
           </div>
-          <span className="font-heading text-xl font-bold text-foreground">IPC Gethsemane Prayer House</span>
+          <span className="font-heading text-sm sm:text-base lg:text-xl font-bold text-foreground leading-tight">IPC Gethsemane Prayer House</span>
         </Link>
 
         {/* Desktop nav */}
