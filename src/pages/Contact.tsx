@@ -1,0 +1,140 @@
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
+
+const Contact = () => {
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
+  return (
+    <div>
+      <section className="bg-primary py-20">
+        <div className="container text-center">
+          <h1 className="font-heading text-5xl font-extrabold text-primary-foreground">Contact & Visit</h1>
+          <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
+            We'd love to hear from you or welcome you in person.
+          </p>
+        </div>
+      </section>
+
+      <section className="container py-20">
+        <div className="grid gap-12 lg:grid-cols-2">
+          {/* Contact Info */}
+          <div>
+            <h2 className="font-heading text-3xl font-bold">Get in Touch</h2>
+            <p className="mt-3 text-muted-foreground">Have a question or just want to say hello? Reach out anytime.</p>
+
+            <div className="mt-8 space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                  <MapPin className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold">Address</h3>
+                  <p className="text-sm text-muted-foreground">1234 Faith Avenue<br />Springfield, IL 62701</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent/10">
+                  <Phone className="h-5 w-5 text-accent" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold">Phone</h3>
+                  <p className="text-sm text-muted-foreground">(555) 123-4567</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gold/10">
+                  <Mail className="h-5 w-5 text-gold" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold">Email</h3>
+                  <p className="text-sm text-muted-foreground">info@gracecommunity.org</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                  <Clock className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold">Service Times</h3>
+                  <p className="text-sm text-muted-foreground">Sunday: 9:00 AM & 11:00 AM<br />Wednesday: 7:00 PM</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Map Placeholder */}
+            <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-muted/30">
+              <div className="flex h-64 items-center justify-center">
+                <div className="text-center text-muted-foreground">
+                  <MapPin className="mx-auto h-10 w-10 mb-2 text-muted-foreground/40" />
+                  <p className="text-sm font-medium">Map Integration</p>
+                  <p className="text-xs">Google Maps embed goes here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Form */}
+          <div>
+            <div className="rounded-2xl border border-border bg-card p-8">
+              <h2 className="font-heading text-2xl font-bold">Send Us a Message</h2>
+              <p className="mt-2 text-sm text-muted-foreground">Fill out the form below and we'll get back to you soon.</p>
+
+              {submitted ? (
+                <div className="mt-8 rounded-xl bg-primary/5 p-8 text-center">
+                  <h3 className="font-heading text-xl font-semibold text-primary">Thank You!</h3>
+                  <p className="mt-2 text-muted-foreground">We've received your message and will be in touch soon.</p>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="mt-6 space-y-5">
+                  <div>
+                    <label className="mb-1.5 block text-sm font-medium">Name</label>
+                    <input
+                      type="text"
+                      required
+                      value={form.name}
+                      onChange={(e) => setForm({ ...form, name: e.target.value })}
+                      className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-1 focus:ring-primary"
+                      placeholder="Your name"
+                    />
+                  </div>
+                  <div>
+                    <label className="mb-1.5 block text-sm font-medium">Email</label>
+                    <input
+                      type="email"
+                      required
+                      value={form.email}
+                      onChange={(e) => setForm({ ...form, email: e.target.value })}
+                      className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-1 focus:ring-primary"
+                      placeholder="your@email.com"
+                    />
+                  </div>
+                  <div>
+                    <label className="mb-1.5 block text-sm font-medium">Message</label>
+                    <textarea
+                      required
+                      rows={5}
+                      value={form.message}
+                      onChange={(e) => setForm({ ...form, message: e.target.value })}
+                      className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-1 focus:ring-primary resize-none"
+                      placeholder="How can we help?"
+                    />
+                  </div>
+                  <Button type="submit" size="lg" className="w-full">Send Message</Button>
+                </form>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Contact;
