@@ -36,7 +36,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold">Address</h3>
-                  <p className="text-sm text-muted-foreground">1234 Faith Avenue<br />Springfield, IL 62701</p>
+                  <p className="text-sm text-muted-foreground">Pollachi Kozhinjampara Road,<br />Kozhinjampara, Palakkad-678555, Kerala</p>
+                  <a href="https://jsdl.in/DT-99KJFUGS9ZP" target="_blank" rel="noopener noreferrer" className="mt-1 inline-block text-sm font-medium text-primary hover:underline">Get Directions →</a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
