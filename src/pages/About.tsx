@@ -10,7 +10,7 @@ const beliefs = [
 ];
 
 const team = [
-  { name: "Pastor David Miller", role: "Senior Pastor", bio: "David has been serving at Grace Community for 15 years with a passion for teaching and community." },
+  { name: "Pastor David Miller", role: "Senior Pastor", bio: "David has been serving at IPC Gethsemane Prayer House for 15 years with a passion for teaching and community." },
   { name: "Sarah Johnson", role: "Worship Director", bio: "Sarah leads our worship team with creativity and a heart for authentic, God-centered worship." },
   { name: "James Thompson", role: "Youth Pastor", bio: "James brings energy and purpose to our student ministry, mentoring the next generation." },
   { name: "Maria Rodriguez", role: "Children's Director", bio: "Maria creates fun, safe environments where kids can learn about God's love." },
