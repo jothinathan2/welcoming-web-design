@@ -10,7 +10,7 @@ const beliefs = [
 ];
 
 const team = [
-  { name: "Pastor David Miller", role: "Senior Pastor", bio: "David has been serving at Grace Community for 15 years with a passion for teaching and community." },
+  { name: "Pastor David Miller", role: "Senior Pastor", bio: "David has been serving at IPC Gethsemane Prayer House for 15 years with a passion for teaching and community." },
   { name: "Sarah Johnson", role: "Worship Director", bio: "Sarah leads our worship team with creativity and a heart for authentic, God-centered worship." },
   { name: "James Thompson", role: "Youth Pastor", bio: "James brings energy and purpose to our student ministry, mentoring the next generation." },
   { name: "Maria Rodriguez", role: "Children's Director", bio: "Maria creates fun, safe environments where kids can learn about God's love." },
@@ -24,7 +24,7 @@ const About = () => {
         <div className="container text-center">
           <h1 className="font-heading text-5xl font-extrabold text-primary-foreground">About Us</h1>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-            Get to know the heart behind Grace Community Church.
+            Get to know the heart behind IPC Gethsemane Prayer House.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ const About = () => {
             <p className="mb-2 font-heading text-sm font-semibold uppercase tracking-wider text-accent">Our Story</p>
             <h2 className="font-heading text-4xl font-bold">Rooted in Faith Since 2001</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Grace Community Church began with a small group of families who shared a dream — to build a church where everyone feels welcome, valued, and loved.
+              IPC Gethsemane Prayer House began with a small group of families who shared a dream — to build a church where everyone feels welcome, valued, and loved.
             </p>
             <p className="mt-3 text-muted-foreground leading-relaxed">
               From a living room Bible study to a thriving congregation, our story is one of God's faithfulness. Today, we continue to grow as a community committed to worship, service, and making a difference in our city.
