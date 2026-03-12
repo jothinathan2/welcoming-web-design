@@ -25,7 +25,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-foreground/60" />
         <div className="relative z-10 container text-center">
           <p className="mb-4 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-primary-foreground/80 animate-fade-in">
-            Welcome to Grace Community Church
+            Welcome to IPC Gethsemane Prayer House
           </p>
           <h1 className="font-heading text-5xl font-extrabold leading-tight text-primary-foreground md:text-7xl animate-fade-in" style={{ animationDelay: "0.1s" }}>
             You Belong Here
