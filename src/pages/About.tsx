@@ -24,7 +24,7 @@ const About = () => {
         <div className="container text-center">
           <h1 className="font-heading text-5xl font-extrabold text-primary-foreground">About Us</h1>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-            Get to know the heart behind Grace Community Church.
+            Get to know the heart behind IPC Gethsemane Prayer House.
           </p>
         </div>
       </section>
