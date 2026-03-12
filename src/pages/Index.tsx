@@ -103,32 +103,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Recent Sermons */}
-      <section className="bg-muted/40 py-20">
-        <div className="container">
-          <div className="mb-10 text-center">
-            <p className="mb-2 font-heading text-sm font-semibold uppercase tracking-wider text-accent">Messages</p>
-            <h2 className="font-heading text-4xl font-bold">Recent Sermons</h2>
-          </div>
-          <div className="grid gap-6 md:grid-cols-3">
-            {sermons.map((sermon, i) => (
-              <div key={i} className="group cursor-pointer overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                <div className="mb-4 flex h-40 items-center justify-center rounded-xl bg-primary/5">
-                  <Play className="h-12 w-12 text-primary/40 transition-colors group-hover:text-primary" />
-                </div>
-                <span className="text-xs font-medium text-accent">{sermon.series}</span>
-                <h3 className="mt-1 font-heading text-lg font-semibold">{sermon.title}</h3>
-                <p className="mt-1 text-sm text-muted-foreground">{sermon.speaker} · {sermon.date}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button variant="outline" asChild>
-              <Link to="/sermons">View All Sermons <ArrowRight size={16} /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+
+
 
       {/* Upcoming Events */}
       <section className="container py-20">
