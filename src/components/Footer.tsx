@@ -44,8 +44,8 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-3">Contact</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>1234 Faith Avenue</p>
-              <p>Springfield, IL 62701</p>
+              <p>Pollachi Kozhinjampara Road,</p>
+              <p>Kozhinjampara, Palakkad-678555, Kerala</p>
               <p>info@gracecommunity.org</p>
               <p>(555) 123-4567</p>
             </div>

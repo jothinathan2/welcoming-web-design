@@ -73,7 +73,8 @@ const Index = () => {
               </div>
               <div>
                 <h3 className="font-heading font-semibold">Location</h3>
-                <p className="text-sm text-muted-foreground">1234 Faith Ave, Springfield</p>
+                <p className="text-sm text-muted-foreground">Pollachi Kozhinjampara Road,<br />Kozhinjampara, Palakkad-678555, Kerala</p>
+                <a href="https://jsdl.in/DT-99KJFUGS9ZP" target="_blank" rel="noopener noreferrer" className="mt-1 inline-block text-sm font-medium text-primary hover:underline">Get Directions →</a>
               </div>
             </div>
           </div>
