@@ -157,7 +157,7 @@ const Index = () => {
             Ready to Take the Next Step?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-            We'd love to meet you. Plan your visit today and discover what Grace Community is all about.
+            We'd love to meet you. Plan your visit today and discover what IPC Gethsemane is all about.
           </p>
           <Button variant="hero" size="xl" className="mt-8" asChild>
             <Link to="/contact">Plan Your Visit</Link>

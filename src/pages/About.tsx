@@ -39,7 +39,7 @@ const About = () => {
             <p className="mb-2 font-heading text-sm font-semibold uppercase tracking-wider text-accent">Our Story</p>
             <h2 className="font-heading text-4xl font-bold">Rooted in Faith Since 2001</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Grace Community Church began with a small group of families who shared a dream — to build a church where everyone feels welcome, valued, and loved.
+              IPC Gethsemane Prayer House began with a small group of families who shared a dream — to build a church where everyone feels welcome, valued, and loved.
             </p>
             <p className="mt-3 text-muted-foreground leading-relaxed">
               From a living room Bible study to a thriving congregation, our story is one of God's faithfulness. Today, we continue to grow as a community committed to worship, service, and making a difference in our city.
