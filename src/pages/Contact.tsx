@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="container text-center">
           <h1 className="font-heading text-5xl font-extrabold text-primary-foreground">Contact & Visit</h1>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-            We'd love to hear from you or welcome you in person.
+            We'd love to hear from you or welcome you to Gethsemane Global Ministries.
           </p>
         </div>
       </section>
@@ -69,15 +69,18 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-muted/30">
-              <div className="flex h-64 items-center justify-center">
-                <div className="text-center text-muted-foreground">
-                  <MapPin className="mx-auto h-10 w-10 mb-2 text-muted-foreground/40" />
-                  <p className="text-sm font-medium">Map Integration</p>
-                  <p className="text-xs">Google Maps embed goes here</p>
-                </div>
-              </div>
+            {/* Map */}
+            <div className="mt-8 overflow-hidden rounded-2xl border border-border">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.1234567890123!2d76.8440861!3d10.7359723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba841983d3fe01f%3A0x2c02c255ec56c7bb!2sGethsemane%20Global%20Ministries!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gethsemane Global Ministries Location"
+              />
             </div>
           </div>
 

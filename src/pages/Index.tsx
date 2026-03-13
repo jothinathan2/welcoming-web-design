@@ -25,7 +25,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-foreground/60" />
         <div className="relative z-10 container text-center">
           <p className="mb-4 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-primary-foreground/80 animate-fade-in">
-            Welcome to IPC Gethsemane Prayer House
+            Welcome to Gethsemane Global Ministries
           </p>
           <h1 className="font-heading text-5xl font-extrabold leading-tight text-primary-foreground md:text-7xl animate-fade-in" style={{ animationDelay: "0.1s" }}>
             You Belong Here
@@ -90,7 +90,7 @@ const Index = () => {
               A Family Rooted in Faith & Love
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              IPC Gethsemane Prayer House is more than a building — it's a family. For over 25 years, we've been a place where people can find hope, build lasting friendships, and grow in their faith together.
+              Gethsemane Global Ministries is more than a building — it's a family. For over 25 years, we've been a place where people can find hope, build lasting friendships, and grow in their faith together.
             </p>
             <p className="mt-3 text-muted-foreground leading-relaxed">
               Whether you're taking your first steps in faith or have been walking with God for years, there's a place for you here.
@@ -135,7 +135,7 @@ const Index = () => {
             Ready to Take the Next Step?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-            We'd love to meet you. Plan your visit today and discover what IPC Gethsemane is all about.
+            We'd love to meet you. Plan your visit today and discover what Gethsemane Global Ministries is all about.
           </p>
           <Button variant="hero" size="xl" className="mt-8" asChild>
             <Link to="/contact">Plan Your Visit</Link>

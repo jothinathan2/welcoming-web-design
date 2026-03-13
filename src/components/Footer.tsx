@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary">
                 <span className="text-sm font-bold text-primary-foreground">✝</span>
               </div>
-              <span className="font-heading text-lg font-bold">IPC Gethsemane Prayer House</span>
+              <span className="font-heading text-lg font-bold">Gethsemane Global Ministries</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A place where everyone is welcome. Join us as we grow in faith together.
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} IPC Gethsemane Prayer House. All rights reserved.
+          © {new Date().getFullYear()} Gethsemane Global Ministries. All rights reserved.
         </div>
       </div>
     </footer>
