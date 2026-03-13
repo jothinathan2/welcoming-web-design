@@ -90,7 +90,7 @@ const Index = () => {
               A Family Rooted in Faith & Love
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              IPC Gethsemane Prayer House is more than a building — it's a family. For over 25 years, we've been a place where people can find hope, build lasting friendships, and grow in their faith together.
+              Gethsemane Global Ministries is more than a building — it's a family. For over 25 years, we've been a place where people can find hope, build lasting friendships, and grow in their faith together.
             </p>
             <p className="mt-3 text-muted-foreground leading-relaxed">
               Whether you're taking your first steps in faith or have been walking with God for years, there's a place for you here.
