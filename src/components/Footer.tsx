@@ -43,6 +43,16 @@ const Footer = () => {
           </div>
 
           <div>
+            <h4 className="font-heading font-semibold mb-3">Contact</h4>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p>Pollachi Kozhinjampara Road,</p>
+              <p>Kozhinjampara, Palakkad-678555, Kerala</p>
+              <p>info@gracecommunity.org</p>
+              <p>(555) 123-4567</p>
+            </div>
+          </div>
+
+          <div>
             <h4 className="font-heading font-semibold mb-3">Follow Us</h4>
             <div className="flex items-center gap-3">
               <a
