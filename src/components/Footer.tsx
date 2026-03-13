@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} IPC Gethsemane Prayer House. All rights reserved.
+          © {new Date().getFullYear()} Gethsemane Global Ministries. All rights reserved.
         </div>
       </div>
     </footer>

@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="container text-center">
           <h1 className="font-heading text-5xl font-extrabold text-primary-foreground">Contact & Visit</h1>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-            We'd love to hear from you or welcome you in person.
+            We'd love to hear from you or welcome you to Gethsemane Global Ministries.
           </p>
         </div>
       </section>
