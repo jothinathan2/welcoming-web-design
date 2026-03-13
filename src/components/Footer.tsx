@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="border-t border-border bg-card">
       <div className="container py-12">
-        <div className="grid gap-8 md:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-5">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary">
@@ -36,8 +37,8 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-3">Service Times</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p><span className="font-medium text-foreground">Sunday:</span> 9:00 AM & 11:00 AM</p>
-              <p><span className="font-medium text-foreground">Wednesday:</span> 7:00 PM</p>
+              <p><span className="font-medium text-foreground">Sunday:</span> 7:00 AM – 12:00 PM</p>
+              <p><span className="font-medium text-foreground">Friday:</span> 10:00 AM – 1:00 PM</p>
             </div>
           </div>
 
@@ -48,6 +49,30 @@ const Footer = () => {
               <p>Kozhinjampara, Palakkad-678555, Kerala</p>
               <p>info@gracecommunity.org</p>
               <p>(555) 123-4567</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-heading font-semibold mb-3">Follow Us</h4>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-xl bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={20} />
+              </a>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-xl bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="YouTube"
+              >
+                <Youtube size={20} />
+              </a>
             </div>
           </div>
         </div>
